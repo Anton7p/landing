@@ -1,0 +1,21 @@
+{
+  "name": "landing_art_my_love8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://Anton7p.github.io/landing",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anton7p/landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anton7p/landing/issues"
+  }
+}
