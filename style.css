@@ -122,6 +122,7 @@ section .banner {
     top: 0;
     left: 0;
     width: 100%;
+
     height: 100%;
     display: flex;
     justify-content: center;
@@ -133,14 +134,16 @@ section .banner {
 .banner .text h2 {
     text-transform: uppercase;
     letter-spacing: 10px;
+    font-size: 30px;
     text-shadow: -1px 3px 0 whitesmoke;
 }
 
 .banner .text p {
     letter-spacing: 5px;
     margin-bottom: 15px;
+    font-size: 30px;
     text-transform: uppercase;
-    color: brown;
+    color: #f30627;
 }
 
 .banner .text input {
@@ -203,11 +206,11 @@ section .banner {
     text-align: center;
     font-size: 11px;
     line-height: 19px;
-    border: 1px solid chocolate;
+    border: 1px solid #d20725;
 }
 
 .slide-nav .nav-dot.dot-active {
-    background: chocolate;
+    background: #d20725;
 }
 
 /* -----------------------------About--------------------------- */
@@ -362,7 +365,7 @@ section .banner {
 }
 
 #properties span {
-    color: chocolate;
+    color: #d20725;
     padding-right: 10px;
 }
 
@@ -421,7 +424,7 @@ section .banner {
     width: 100px;
     height: 100px;
     font-size: 3em;
-    color: chocolate;
+    color: #d20725;
     line-height: 100px;
 }
 
@@ -453,7 +456,7 @@ section .banner {
 }
 
 #service .content .card.circle h3 {
-    color: chocolate;
+    color: #d20725;
 }
 
 /* -----------------------------Contact--------------------------- */
@@ -506,7 +509,7 @@ section .banner {
 }
 
 #contact form button {
-    background: bisque;
+    background: #d20725;
     height: 40px;
     color: whitesmoke;
     letter-spacing: 4px;
@@ -527,7 +530,7 @@ section .banner {
 }
 
 #contact .box .text h3 {
-    color: chocolate;
+    color: #8f071c;
     letter-spacing: 3px;
 }
 
@@ -537,7 +540,7 @@ section .banner {
 }
 
 #contact .box .text span {
-    color: crimson;
+    color: #d20725;
 }
 
 /* -----------------------------Footer--------------------------- */
@@ -545,7 +548,7 @@ section .banner {
 footer {
     width: 100%;
     max-width: 1230px;
-    background: #811;
+    background: #565050;
     margin: auto;
     color: whitesmoke;
 }
@@ -595,7 +598,7 @@ footer .row p {
 }
 
 footer .row p span {
-    color: green;
+    color: #1043b0;
 }
 
 footer .row .social {
@@ -615,7 +618,7 @@ footer .row .social a {
 
 footer .row .social a:hover {
     font-weight: 900;
-    color: green;
+    color: #073be0;
 }
 
 /* -----------------------------Register/ Login--------------------------- */
@@ -627,7 +630,7 @@ footer .row .social a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(130deg, rgb(155, 1, 155), rgb(1, 118, 185));
+    background: linear-gradient(130deg, rgb(121, 198, 132), rgb(216, 225, 86));
     z-index: 99;
     clip-path: circle(0% at 50% 50%);
     transition: 0.5s ease-in-out;
@@ -638,7 +641,7 @@ footer .row .social a:hover {
     top: 0;
     right: 10px;
     font-size: 2em;
-    color: coral;
+    color: #a1152a;
     cursor: pointer;
 }
 
@@ -705,7 +708,7 @@ footer .row .social a:hover {
 .login-box button {
     width: 100%;
     height: 40px;
-    background: #881111;
+    background:linear-gradient(130deg, rgb(121, 198, 132), rgb(216, 225, 86));
     border: none;
     outline: none;
     cursor: pointer;
@@ -739,7 +742,7 @@ footer .row .social a:hover {
 }
 
 .login-box .btn.btn-gg {
-    background: darkorange;
+    background: #ff0026;
 }
 
 .hidden {
@@ -798,6 +801,8 @@ footer .row .social a:hover {
     header ul li {
         line-height: normal;
         display: block;
+        padding: 40px;
+        font-size: 30px;
     }
 
     footer .row {
